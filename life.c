@@ -142,7 +142,7 @@ int main(int argc, char **argv) {
   }
   t2 = gettime();
 
-  printf("Time taken %f seconds for %d iterations\n", t2 - t1, k);
+  printf("Time taken %f seconds for %dx%d Grid size  %d iterations\n",t2 - t1, N,N, k);
 
 #ifdef DEBUG1
   /* Display the life matrix after k iterations */

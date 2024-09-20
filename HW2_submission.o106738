@@ -1,0 +1,33 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: myscript.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/ualmkc001/HW2/Fall2024_HW1
+  The working directory is:  /scratch-local/ualmkc001.HW2_submission.106738.asax-pbs1
+  The memory limit is: 1gb
+  The job will start running after: 202409191402.47
+  Job Name: HW2_submission
+  Queue: -q small
+  Constraints: 
+  Using  1  cores on master node  asax019.asc.edu
+  Node list:  asax019.asc.edu
+  Cores:  1
+  Command typed:
+/scripts/run_script myscript.sh     
+  Queue submit command:
+qsub -q small -j oe -N HW2_submission -a 202409191402.47 -r n -M mhchowdhury@crimson.ua.edu -l walltime=4:00:00 -l select=ncpus=1:mem=1000mb 
+Time taken 3.958310 seconds for 1000x1000 Grid size  1000 iterations
+Program terminates normally
+Time taken 17.954754 seconds for 1000x1000 Grid size  5000 iterations
+Program terminates normally
+Time taken 101.999609 seconds for 5000x5000 Grid size  1000 iterations
+Program terminates normally
+Time taken 432.933239 seconds for 5000x5000 Grid size  5000 iterations
+Program terminates normally
+Time taken 395.743303 seconds for 10000x10000 Grid size  1000 iterations
+Program terminates normally
+Time taken 1692.103389 seconds for 10000x10000 Grid size  5000 iterations
+Program terminates normally
